@@ -1,27 +1,35 @@
+/* === Review Slides Fix (Shikimori) === */
 
-/* Красная */
+/* Общий стиль */
+.review-slide {
+background: rgba(20, 20, 20, 0.75) !important;
+color: #f1f1f1 !important;
+border-radius: 12px;
+padding: 10px;
+backdrop-filter: blur(6px);
+border: 1px solid rgba(255, 255, 255, 0.08);
+transition: all 0.2s ease;
+}
+
+/* Hover эффект */
+.review-slide:hover {
+background: rgba(30, 30, 30, 0.85) !important;
+}
+
+/* Цветовые варианты (сохраняем цвет, но делаем мягким) */
 .review-slide.color-0 {
-background: rgba(255, 80, 80, 0.18) !important;
+box-shadow: inset 0 0 0 2px rgba(255, 90, 90, 0.45);
 }
 
-/* Зелёная */
 .review-slide.color-1 {
-background: rgba(80, 255, 140, 0.18) !important;
+box-shadow: inset 0 0 0 2px rgba(90, 255, 140, 0.45);
 }
 
-/* Синяя */
 .review-slide.color-2 {
-background: rgba(80, 160, 255, 0.18) !important;
+box-shadow: inset 0 0 0 2px rgba(90, 170, 255, 0.45);
 }
 
-/* Placeholder (тень/фон) */
-.review-slide.placeholder {
-background: rgba(0, 0, 0, 0.5) !important;
-}
-
-/* Чтобы текст внутри не ломался */
-.review-slide.color-0 *,
-.review-slide.color-1 *,
-.review-slide.color-2 *,
-.review-slide.placeholder * {
+/* Доп: чуть усилим читаемость текста */
+.review-slide * {
+color: inherit !important;
 }
