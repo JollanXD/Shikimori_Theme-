@@ -8,7 +8,6 @@
 ## 🚀 Быстрая установка
 
 ### 1. Скопируйте этот код:
-Shikimori.one
 [Shikimori.one](https://raw.githubusercontent.com/JollanXD/Shikimori_Theme-/refs/heads/main/main_style-ONE.css)
 
 
