@@ -9,8 +9,8 @@
 
 ### 1. Скопируйте этот код:
 Shikimori.one
-```css
-@import url("https://raw.githubusercontent.com/JollanXD/Shikimori_Theme-/refs/heads/main/main_style-ONE.css");
+```
+[Shikimori.one](https://raw.githubusercontent.com/JollanXD/Shikimori_Theme-/refs/heads/main/main_style-ONE.css)
 ```
 
 ---
