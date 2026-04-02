@@ -1,0 +1,26 @@
+/* === Review Slide Colors Fix ONLY === */
+
+/* Красная */
+.review-slide.color-0 {
+background: rgba(255, 80, 80, 0.18) !important;
+color: #f2f2f2 !important;
+}
+
+/* Зелёная */
+.review-slide.color-1 {
+background: rgba(80, 255, 140, 0.18) !important;
+color: #f2f2f2 !important;
+}
+
+/* Синяя */
+.review-slide.color-2 {
+background: rgba(80, 160, 255, 0.18) !important;
+color: #f2f2f2 !important;
+}
+
+/* Чтобы текст внутри не ломался */
+.review-slide.color-0 *,
+.review-slide.color-1 *,
+.review-slide.color-2 * {
+color: inherit !important;
+}
