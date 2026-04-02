@@ -17,7 +17,6 @@
 [Shikimori.rip](https://raw.githubusercontent.com/JollanXD/Shikimori_Theme-/refs/heads/main/main_style-RIP.css)
 
 
----
 
 ### 2. Вставьте в Shikimori
 
