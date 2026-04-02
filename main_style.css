@@ -21,6 +21,27 @@ background: rgba(80, 255, 140, 0.18) !important;
 background: rgba(80, 160, 255, 0.18) !important;
 }
 
+/* === Fix carousel side overlays === */
+
+div.top-reviews-carousel::before,
+div.top-reviews-carousel::after {
+background: linear-gradient(
+to right,
+rgba(15, 15, 15, 1),
+rgba(15, 15, 15, 0)
+) !important;
+}
+
+/* Правая сторона — переворачиваем градиент */
+div.top-reviews-carousel::after {
+background: linear-gradient(
+to left,
+rgba(15, 15, 15, 1),
+rgba(15, 15, 15, 0)
+) !important;
+}
+
+
 .l-footer:after {
   content: "*Dark Forest*";
 }
