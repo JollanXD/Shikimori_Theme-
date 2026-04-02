@@ -10,13 +10,13 @@
 ### 1. Скопируйте этот код:
 Shikimori.one
 ```css
-@import url("https://raw.githubusercontent.com/JollanXD/SHIKI-/refs/heads/main/main_style.css");
+@import url("https://raw.githubusercontent.com/JollanXD/Shikimori_Theme-/refs/heads/main/main_style-one.css");
 ```
 
 ---
 Shikimori.rip
 ```css
-@import url("https://raw.githubusercontent.com/JollanXD/SHIKI-/refs/heads/main/main_style.css");
+@import url("https://raw.githubusercontent.com/JollanXD/SHIKI-/refs/heads/main/main_style-RIP.css");
 ```
 
 ---
