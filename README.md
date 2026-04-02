@@ -16,7 +16,7 @@ Shikimori.one
 ---
 Shikimori.rip
 ```css
-@import url("https://raw.githubusercontent.com/JollanXD/SHIKI-/refs/heads/main/main_style-RIP.css");
+@import url("https://raw.githubusercontent.com/JollanXD/Shikimori_Theme-/refs/heads/main/main_style-RIP.css");
 ```
 
 ---
