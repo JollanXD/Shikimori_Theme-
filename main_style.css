@@ -6,6 +6,21 @@ body:after {
   background-image: url("https://raw.githubusercontent.com/JollanXD/SHIKI-/refs/heads/main/1614259158-29-p-fon-v-chernikh-tonakh-31.jpg");
 }
 
+/* Красная */
+.review-slide.color-0 {
+background: rgba(255, 80, 80, 0.18) !important;
+}
+
+/* Зелёная */
+.review-slide.color-1 {
+background: rgba(80, 255, 140, 0.18) !important;
+}
+
+/* Синяя */
+.review-slide.color-2 {
+background: rgba(80, 160, 255, 0.18) !important;
+}
+
 .l-footer:after {
   content: "*Dark Forest*";
 }
