@@ -22,5 +22,5 @@ color: #f2f2f2 !important;
 .review-slide.color-0 *,
 .review-slide.color-1 *,
 .review-slide.color-2 * {
-  color: revert !important;
+  color: unset !important;
 }
