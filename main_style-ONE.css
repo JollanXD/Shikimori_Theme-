@@ -16,8 +16,31 @@ body:after {
   }
 }
 
-/* Цвет заголовка фильтров (Жанры, Теги и т.д.) */
 .c-ms-title { color: #008ead !important; }
+
+.subheadline.linkheadline {
+  background: #232323cc !important;  
+  color: #ababab !important;         
+  border: 1px solid #444444 !important;  
+}
+
+
+.block2 .fc-2_3 .f-column:last-of-type .headline {
+  background: #232323cc !important;   
+  color: #ababab !important;            
+  border: 1px solid #444444 !important; 
+}
+
+
+.block2 .fc-2_3 .f-column:last-of-type .headline a,
+.block2 .fc-2_3 .f-column:last-of-type .headline span {
+  color: #ababab !important;
+}
+
+
+.block2 .fc-2_3 .f-column:last-of-type .headline a:hover {
+  color: #ffffff !important;
+}
 
 
 .shikista {
