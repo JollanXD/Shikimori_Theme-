@@ -16,8 +16,35 @@ body:after {
   }
 }
 
+/* Цвет заголовка фильтров (Жанры, Теги и т.д.) */
+.c-ms-title { color: #008ead !important; }
+
+
 .shikista {
   color: white;
+}
+
+.c-ms-dropdown {
+  background: rgba(var(--menu-back), 0.95) !important;
+  color: rgba(var(--light-color), var(--hundred)) !important;
+  border: 1px solid rgba(var(--light-color), 0.15) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(var(--shadows-color), 0.5) !important;
+  padding: 8px !important;
+}
+.c-ms-dropdown .b-list-item,
+.c-ms-dropdown label,
+.c-ms-dropdown span,
+.c-ms-dropdown .item {
+  color: rgba(var(--light-color), var(--hundred)) !important;
+  font-family: var(--font-family) !important;
+}
+.c-ms-dropdown .b-list-item:hover,
+.c-ms-dropdown label:hover,
+.c-ms-dropdown .item:hover {
+  background: rgba(var(--bright-color), 0.15) !important;
+  color: rgba(var(--white-color), var(--hundred)) !important;
+  border-radius: 4px;
 }
 
 @media screen and (min-width: 1px) {
