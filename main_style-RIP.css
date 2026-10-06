@@ -6,22 +6,21 @@ body:after {
   background-image: url("https://raw.githubusercontent.com/JollanXD/SHIKI-/refs/heads/main/1614259158-29-p-fon-v-chernikh-tonakh-31.jpg");
 }
 
-/* Красная */
+
 .review-slide.color-0 {
 background: rgba(255, 80, 80, 0.18) !important;
 }
 
-/* Зелёная */
+
 .review-slide.color-1 {
 background: rgba(80, 255, 140, 0.18) !important;
 }
 
-/* Синяя */
+
 .review-slide.color-2 {
 background: rgba(80, 160, 255, 0.18) !important;
 }
 
-/* === Fix carousel side overlays === */
 
 div.top-reviews-carousel::before,
 div.top-reviews-carousel::after {
@@ -32,7 +31,7 @@ rgba(15, 15, 15, 0)
 ) !important;
 }
 
-/* Правая сторона — переворачиваем градиент */
+
 div.top-reviews-carousel::after {
 background: linear-gradient(
 to left,
@@ -55,6 +54,187 @@ rgba(15, 15, 15, 0)
 .shikista {
   color: white;
 }
+
+.mode-toggle { background: #232323 !important; }
+
+.b-link_button {
+    background-color: #232323 !important;
+    color: #ccc !important;
+    box-shadow: 0 2px 6px 2px #5c6670;
+}
+
+.season-selector-box { 
+background: #232323 !important; 
+border: 1px solid #3d3d3d !important;
+} 
+
+
+
+.season-selector_season { 
+  background: #232323 !important; 
+  color: #ffffff !important;     
+  border: 1px solid #3d3d3d !important;
+}
+
+.year-dropdown_list { 
+ background: #232323 !important;
+ color: #cbcbcb !important;
+}
+
+.year-dropdown_trigger { 
+  background: #232323 !important; 
+  color: #cbcbcb !important;      
+  border: 1px solid #3d3d3d !important;
+}
+
+
+.season-selector_add { 
+color: #cbcbcb !important;
+background: #232323 !important;
+border: 1px solid #3d3d3d !important;
+ }
+
+
+.range-selector_apply { 
+  background: #232323 !important; 
+  color: #ffffff !important;      
+  border: 1px solid #444444 !important; 
+}
+
+
+.range-selector_from, 
+.range-selector_to { 
+  background: #232323 !important; 
+  color: #ffffff !important; 
+  border: 1px solid #444444 !important; 
+}
+
+.tag-chip, 
+.add-tag-chip { 
+  background: #176093 !important; 
+  color: #ffffff !important; 
+  border: 1px solid #444444 !important; 
+}
+
+.b-custom_list_popup .cancel, 
+.b-add_tag_popup .cancel { 
+  background: #232323 !important; 
+  color: #ffffff !important;     
+}
+
+
+.b-custom_list_popup input[type="text"],
+.b-custom_list_popup .is_status-row .custom_list_color_input {
+  background: #232323 !important; 
+  color: #ffffff !important;      
+  border: 1px solid #444444 !important; 
+}
+
+.b-custom_list_popup .custom_list-color_input,
+.b-custom_list_popup .custom_list_color_input {
+  padding: 2px !important;
+  background: none !important;    
+  border: 1px solid #444444 !important; 
+  border-radius: 4px !important;        
+}
+
+.b-custom_list_popup .custom_list-color_input::-webkit-color-swatch-wrapper,
+.b-custom_list_popup .custom_list_color_input::-webkit-color-swatch-wrapper {
+  padding: 0 !important;
+}
+.b-custom_list_popup .custom_list-color_input::-webkit-color-swatch,
+.b-custom_list_popup .custom_list_color_input::-webkit-color-swatch {
+  border: none !important;
+  border-radius: 3px !important;
+}
+
+.b-custom_list_popup .is_status-row .box_hint {
+  background: #232323 !important;
+  color: #cbcbcb !important;
+  border: 1px solid #444444 !important;
+  border-radius: 50% !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.b-custom_list_popup .is_status-row .box_hint:hover,
+.b-custom_list_popup .is_status-row .box_hint.open {
+  background: #19919a !important;
+  border-color: #19919a !important;
+  color: #ffffff !important;
+}
+
+
+.b-custom_list_popup .box_hint_popup {
+  background: #090909 !important; 
+  color: #ffffff !important;      
+  border: 1px solid #444444 !important; 
+  border-radius: 6px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6) !important;
+  padding: 10px !important;
+}
+
+
+
+
+.range-selector_reset, 
+.season-selector_reset_all { 
+ color: #ababab !important;
+}
+
+
+
+.range-selector_label {
+ color: #cbcbcb !important; 
+}
+
+.js-toggle-site-news {
+  position: absolute !important;
+  right: -5px !important;          
+  top: 30% !important;             
+  transform: translateY(-50%) !important; 
+  margin: 0 !important;            
+  z-index: 10 !important;          
+
+  
+  background: #232323 !important;  
+  color: #cbcbcb !important;       
+  border: 1px solid #444444 !important; 
+}
+
+
+.js-toggle-site-news:hover {
+  color: #ffffff !important;       
+  background: #19919a !important;  
+}
+
+.subheadline.linkheadline {
+  background: #232323cc !important;  
+  color: #ababab !important;         
+  border: 1px solid #444444 !important;  
+}
+
+
+
+.block2 .fc-2_3 .f-column:last-of-type .headline {
+  background: #232323cc !important;   
+  color: #ababab !important;            
+  border: 1px solid #444444 !important; 
+}
+
+
+.block2 .fc-2_3 .f-column:last-of-type .headline a,
+.block2 .fc-2_3 .f-column:last-of-type .headline span {
+  color: #ababab !important;
+}
+
+
+.block2 .fc-2_3 .f-column:last-of-type .headline a:hover {
+  color: #ffffff !important;
+}
+
 
 @media screen and (min-width: 1px) {
   html:root {
